@@ -284,29 +284,77 @@ footer a:hover{color:var(--ember)}
   .prod-head{display:none}
   .pgrid{gap:14px}
 }
+
+/* Tablet — keep 2 cols but fix sizes */
 @media(max-width:680px){
+  /* Header */
   .hdr{padding:10px 16px;height:auto;display:flex;flex-wrap:wrap;gap:10px}
   .search-box{order:3;flex:1 1 100%;max-width:100%}
-  .brand-name{font-size:23px}
+  .brand-name{font-size:22px}
   .btn-ask span{display:none}
+
+  /* Main */
   .main{padding:12px 14px 60px}
-  .pgrid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:11px}
-  .pimg{height:160px}
-  .pprice{font-size:17px}
-  .pactions{gap:5px}
-  .qty-ctrl button{width:22px}
-  .btn-add{padding:0 10px;font-size:11px}
+  .pgrid{grid-template-columns:repeat(2,1fr);gap:12px}
+
+  /* Card image */
+  .pimg{height:170px}
+
+  /* Card text — bigger & readable */
+  .ppid{font-size:10px}
+  .pname{font-size:15px;margin-bottom:5px}
+  .pdesc{font-size:13px;-webkit-line-clamp:2;margin-bottom:10px}
+
+  /* Card footer — stack price on top, controls below */
+  .pfooter{flex-direction:column;align-items:flex-start;gap:10px}
+  .pprice{font-size:20px}
+  .pprice small{font-size:10px}
+  .pactions{width:100%;justify-content:space-between}
+  .qty-ctrl{flex:1}
+  .qty-ctrl button{width:32px;height:32px;font-size:16px}
+  .qty-v{font-size:13px}
+  .btn-add{flex:1;justify-content:center;height:32px;padding:0 10px;font-size:13px}
+
+  /* Misc */
   .info-strip{display:none}
   .cat-bar{padding:0 14px}
   .mobile-toolbar{padding:8px 14px}
+  .mobile-toolbar .mobile-result-count{font-size:13px}
+  .btn-filter-trigger{font-size:13px;height:38px}
+  .mobile-sort{font-size:13px;height:38px}
+
+  /* Modals */
   .pd-grid{grid-template-columns:1fr}
   .pd-gal{border-radius:20px 20px 0 0}
+  .ask-body{padding:18px 20px 24px}
+  .ask-head{padding:24px 20px 18px}
+  .ask-head h2{font-size:28px}
 }
-@media(max-width:400px){
-  .pgrid{grid-template-columns:1fr 1fr}
-  .pimg{height:140px}
-  .pname{font-size:14px}
-  .pprice{font-size:15px}
+
+/* Small phone — single column */
+@media(max-width:480px){
+  .pgrid{grid-template-columns:1fr;gap:12px}
+
+  /* Full-width card is wider — give image more height */
+  .pimg{height:210px}
+
+  /* Even bigger text since we have full width */
+  .pname{font-size:17px}
+  .pdesc{font-size:13.5px;-webkit-line-clamp:3}
+  .pprice{font-size:22px}
+
+  /* Footer: price row + controls row */
+  .pfooter{flex-direction:column;align-items:flex-start;gap:10px}
+  .pactions{width:100%}
+  .qty-ctrl{flex:1}
+  .btn-add{flex:1;justify-content:center;font-size:14px;height:34px}
+
+  /* Header: hide "Cart" text on tiny screens, keep icon+badge */
+  .btn-cart-label{display:none}
+  .hdr-actions{gap:8px}
+
+  /* Card info padding a touch more breathing room */
+  .pinfo{padding:16px 18px 18px}
 }
 </style>
 </head>
@@ -328,7 +376,7 @@ footer a:hover{color:var(--ember)}
     <div class="hdr-actions">
       <button class="btn-cart" onclick="toggleCart()">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
-        Cart <span class="cart-badge" id="cartCount">0</span>
+        <span class="btn-cart-label">Cart</span> <span class="cart-badge" id="cartCount">0</span>
       </button>
       <button class="btn-ask" onclick="openAskOut()">
         <span>ASK OUT</span>
