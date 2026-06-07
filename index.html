@@ -149,13 +149,16 @@ input[type=range]{width:100%;accent-color:var(--ember);cursor:pointer}
 .pfooter{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto}
 .pprice{font-family:'Cormorant Garamond',serif;font-size:21px;font-weight:700;color:var(--ink);line-height:1}
 .pprice small{font-family:'Courier Prime',monospace;font-size:9.5px;font-weight:400;color:var(--ink30)}
-.pactions{display:flex;align-items:center;gap:7px}
-.qty-ctrl{display:flex;align-items:center;border:1px solid var(--border);border-radius:var(--rpill);overflow:hidden;height:30px;background:var(--parchment)}
-.qty-ctrl button{width:26px;height:30px;border:none;background:none;font-size:14px;font-weight:700;cursor:pointer;color:var(--ink60);transition:background .15s,color .15s;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.pactions{display:flex;align-items:center;gap:8px}
+/* qty-ctrl: NO overflow:hidden so buttons never get clipped */
+.qty-ctrl{display:flex;align-items:center;border:1px solid var(--border);border-radius:var(--rpill);height:34px;background:var(--parchment);flex-shrink:0}
+.qty-ctrl button{width:32px;height:34px;border:none;background:none;font-size:16px;font-weight:700;cursor:pointer;color:var(--ink60);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .15s,color .15s;border-radius:0}
+.qty-ctrl button:first-child{border-radius:var(--rpill) 0 0 var(--rpill)}
+.qty-ctrl button:last-child{border-radius:0 var(--rpill) var(--rpill) 0}
 .qty-ctrl button:hover{background:var(--ink10);color:var(--ink)}
 .qty-ctrl button:disabled{color:var(--ink30);cursor:not-allowed}
-.qty-v{font-family:'Courier Prime',monospace;font-size:11.5px;min-width:20px;text-align:center;color:var(--ink)}
-.btn-add{height:30px;padding:0 13px;background:var(--ink);border:none;border-radius:var(--rpill);font-family:'Outfit',sans-serif;font-size:11.5px;font-weight:600;color:#fff;cursor:pointer;display:flex;align-items:center;gap:5px;transition:background .18s,transform .15s;white-space:nowrap}
+.qty-v{font-family:'Courier Prime',monospace;font-size:12px;min-width:24px;text-align:center;color:var(--ink)}
+.btn-add{height:34px;padding:0 14px;background:var(--ink);border:none;border-radius:var(--rpill);font-family:'Outfit',sans-serif;font-size:12px;font-weight:600;color:#fff;cursor:pointer;display:flex;align-items:center;gap:5px;transition:background .18s,transform .15s;white-space:nowrap}
 .btn-add:hover{background:var(--ember);transform:scale(1.04)}
 .btn-add:disabled{background:var(--ink30);cursor:not-allowed;transform:none}
 
@@ -285,76 +288,77 @@ footer a:hover{color:var(--ember)}
   .pgrid{gap:14px}
 }
 
-/* Tablet — keep 2 cols but fix sizes */
+/* ── Mobile: 2-column phones ── */
 @media(max-width:680px){
   /* Header */
-  .hdr{padding:10px 16px;height:auto;display:flex;flex-wrap:wrap;gap:10px}
+  .hdr{padding:14px 16px;height:auto;display:flex;flex-wrap:wrap;gap:10px}
   .search-box{order:3;flex:1 1 100%;max-width:100%}
-  .brand-name{font-size:22px}
+  .brand-name{font-size:30px}
+  .brand-meta{font-size:8.5px}
   .btn-ask span{display:none}
-
-  /* Main */
-  .main{padding:12px 14px 60px}
-  .pgrid{grid-template-columns:repeat(2,1fr);gap:12px}
-
-  /* Card image */
-  .pimg{height:170px}
-
-  /* Card text — bigger & readable */
-  .ppid{font-size:10px}
-  .pname{font-size:15px;margin-bottom:5px}
-  .pdesc{font-size:13px;-webkit-line-clamp:2;margin-bottom:10px}
-
-  /* Card footer — stack price on top, controls below */
-  .pfooter{flex-direction:column;align-items:flex-start;gap:10px}
-  .pprice{font-size:20px}
-  .pprice small{font-size:10px}
-  .pactions{width:100%;justify-content:space-between}
-  .qty-ctrl{flex:1}
-  .qty-ctrl button{width:32px;height:32px;font-size:16px}
-  .qty-v{font-size:13px}
-  .btn-add{flex:1;justify-content:center;height:32px;padding:0 10px;font-size:13px}
-
-  /* Misc */
+  /* Strip / bars */
   .info-strip{display:none}
   .cat-bar{padding:0 14px}
   .mobile-toolbar{padding:8px 14px}
-  .mobile-toolbar .mobile-result-count{font-size:13px}
-  .btn-filter-trigger{font-size:13px;height:38px}
+  .mobile-result-count{font-size:13px}
+  .btn-filter-trigger{font-size:13px;height:38px;padding:0 14px}
   .mobile-sort{font-size:13px;height:38px}
-
-  /* Modals */
+  /* Layout */
+  .main{padding:12px 14px 60px}
+  .pgrid{grid-template-columns:repeat(2,1fr);gap:12px}
+  /* Card */
+  .pimg{height:160px}
+  .pinfo{padding:11px 12px 13px}
+  .ppid{font-size:9px}
+  .pname{font-size:14px;margin-bottom:4px}
+  .pdesc{font-size:12px;-webkit-line-clamp:2;margin-bottom:8px}
+  /* Card footer: price row, then controls row */
+  .pfooter{flex-direction:column;align-items:stretch;gap:8px}
+  .pprice{font-size:18px}
+  /* Controls row */
+  .pactions{width:100%;gap:7px}
+  .qty-ctrl{height:36px;flex-shrink:0}
+  .qty-ctrl button{width:32px;height:36px;font-size:15px}
+  .qty-v{min-width:22px;font-size:12px}
+  .btn-add{flex:1;height:36px;padding:0;justify-content:center;font-size:12.5px}
+  /* Product detail modal */
   .pd-grid{grid-template-columns:1fr}
-  .pd-gal{border-radius:20px 20px 0 0}
-  .ask-body{padding:18px 20px 24px}
-  .ask-head{padding:24px 20px 18px}
-  .ask-head h2{font-size:28px}
+  .pd-gal{border-radius:20px 20px 0 0;padding:20px}
+  .pd-info{padding:18px 18px 22px}
+  .pd-name{font-size:22px}
+  .pd-price{font-size:24px;margin-bottom:12px}
+  /* Modal action row: single line, no wrap */
+  .pd-acts{flex-wrap:nowrap;align-items:center;gap:8px}
+  .pd-acts .qty-ctrl{height:40px;flex-shrink:0}
+  .pd-acts .qty-ctrl button{width:34px;height:40px;font-size:17px}
+  .pd-acts .qty-v{min-width:24px;font-size:13px}
+  .pd-acts .btn-add{flex:1;height:40px;justify-content:center;padding:0;font-size:13px}
+  .pd-acts .btn-ask{height:40px;padding:0 14px;font-size:15px;flex-shrink:0}
+  /* Ask modal */
+  .ask-head{padding:22px 18px 16px}
+  .ask-head h2{font-size:26px}
+  .ask-body{padding:16px 18px 22px}
 }
 
-/* Small phone — single column */
-@media(max-width:480px){
+/* ── Small phone: single column ── */
+@media(max-width:430px){
+  .brand-name{font-size:28px}
+  /* Single column */
   .pgrid{grid-template-columns:1fr;gap:12px}
-
-  /* Full-width card is wider — give image more height */
-  .pimg{height:210px}
-
-  /* Even bigger text since we have full width */
-  .pname{font-size:17px}
-  .pdesc{font-size:13.5px;-webkit-line-clamp:3}
-  .pprice{font-size:22px}
-
-  /* Footer: price row + controls row */
-  .pfooter{flex-direction:column;align-items:flex-start;gap:10px}
-  .pactions{width:100%}
-  .qty-ctrl{flex:1}
-  .btn-add{flex:1;justify-content:center;font-size:14px;height:34px}
-
-  /* Header: hide "Cart" text on tiny screens, keep icon+badge */
+  .pimg{height:190px}
+  .pinfo{padding:13px 14px 15px}
+  .pname{font-size:16px}
+  .pdesc{font-size:13px;-webkit-line-clamp:2}
+  .pprice{font-size:20px}
+  .pfooter{flex-direction:column;align-items:stretch;gap:9px}
+  .pactions{width:100%;gap:8px}
+  .qty-ctrl{height:38px;flex-shrink:0}
+  .qty-ctrl button{width:34px;height:38px;font-size:16px}
+  .qty-v{min-width:26px;font-size:13px}
+  .btn-add{flex:1;height:38px;justify-content:center;padding:0;font-size:13.5px}
+  /* Hide cart label text */
   .btn-cart-label{display:none}
   .hdr-actions{gap:8px}
-
-  /* Card info padding a touch more breathing room */
-  .pinfo{padding:16px 18px 18px}
 }
 </style>
 </head>
