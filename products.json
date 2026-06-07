@@ -1,0 +1,262 @@
+[
+  {
+    "pid": "SP-HD-001",
+    "name": "Macrame Wall Hanging",
+    "category": "Wall Decor",
+    "status": "available",
+    "price": 1299,
+    "description": "Hand-knotted macrame wall art in natural cotton rope. Adds a bohemian warmth to any living room or bedroom wall. Each piece is individually handcrafted, making every one subtly unique in texture and form.",
+    "images": [
+      "https://images.unsplash.com/photo-1547481887-a26e2cacb5b2?w=500&q=80",
+      "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?w=500&q=80",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-002",
+    "name": "Terracotta Planter Set",
+    "category": "Planters",
+    "status": "available",
+    "price": 850,
+    "description": "Set of 3 handmade terracotta planters with drainage holes. Perfect for succulents, herbs, and small indoor plants. Earthy and rustic with a smooth matte finish.",
+    "images": [
+      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=500&q=80",
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500&q=80",
+      "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-003",
+    "name": "Wooden Photo Frame Trio",
+    "category": "Frames & Displays",
+    "status": "available",
+    "price": 1150,
+    "description": "Set of 3 solid mango wood photo frames. Clean minimal design, fits 4x6, 5x7, and 8x10 prints. Lacquered for durability with a natural wood grain finish.",
+    "images": [
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&q=80",
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500&q=80",
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-004",
+    "name": "Soy Wax Pillar Candles",
+    "category": "Candles & Lighting",
+    "status": "available",
+    "price": 690,
+    "description": "Hand-poured soy wax pillar candles, set of 4 in vanilla, sandalwood, jasmine, and lavender. Burns cleanly up to 40 hours each. Perfect for fragrance and ambient decor.",
+    "images": [
+      "https://images.unsplash.com/photo-1608181831718-c9ffe8c8aff3?w=500&q=80",
+      "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=500&q=80",
+      "https://images.unsplash.com/photo-1612198790700-d68289c33edf?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-005",
+    "name": "Rattan Pendant Light Shade",
+    "category": "Candles & Lighting",
+    "status": "preorder",
+    "price": 3200,
+    "description": "Natural rattan woven pendant shade for E27 bulb holders. Creates a warm, dappled light effect ideal for dining rooms, living areas, and reading nooks.",
+    "images": [
+      "https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=500&q=80",
+      "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=500&q=80",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-006",
+    "name": "Handwoven Cotton Throw",
+    "category": "Textiles",
+    "status": "available",
+    "price": 1750,
+    "description": "Soft handwoven cotton throw blanket in a classic stripe pattern. 100% cotton, machine washable. 130x180 cm. Ideal draped over sofas, beds, or armchairs.",
+    "images": [
+      "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=500&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-007",
+    "name": "Geometric Brass Bookends",
+    "category": "Desk & Shelf",
+    "status": "limited",
+    "price": 2100,
+    "description": "Pair of solid brass pyramid bookends. Heavy and substantial \u2014 holds large collections with ease. Adds a refined metallic accent to shelves and desks. Limited batch production.",
+    "images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&q=80",
+      "https://images.unsplash.com/photo-1524234107056-1c1f48f64ab8?w=500&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-008",
+    "name": "Jute Table Runner",
+    "category": "Textiles",
+    "status": "available",
+    "price": 420,
+    "description": "Natural jute table runner with fringed edges, 30x200 cm. Eco-friendly and rustic. Perfect for dining tables, console tables, or sideboard styling.",
+    "images": [
+      "https://images.unsplash.com/photo-1600369671936-651f28e07754?w=500&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&q=80",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-009",
+    "name": "Ceramic Bud Vase Set",
+    "category": "Vases & Pottery",
+    "status": "available",
+    "price": 980,
+    "description": "Set of 5 hand-thrown ceramic bud vases in speckled white and warm clay tones. Every piece is unique. Ideal for single stems, dried flowers, or pampas grass.",
+    "images": [
+      "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?w=500&q=80",
+      "https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee?w=500&q=80",
+      "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-010",
+    "name": "Pressed Flower Art Kit",
+    "category": "DIY Kits",
+    "status": "available",
+    "price": 750,
+    "description": "Complete DIY pressed flower framing kit. Includes flower press, 3 frames, mounting tools, and an illustrated step-by-step guide. Great beginner project for all ages.",
+    "images": [
+      "https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee?w=500&q=80",
+      "https://images.unsplash.com/photo-1490750967868-88df5691cc5e?w=500&q=80",
+      "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-011",
+    "name": "Epoxy Resin Tray Kit",
+    "category": "DIY Kits",
+    "status": "preorder",
+    "price": 1450,
+    "description": "DIY epoxy resin tray kit with silicone mold (30x20 cm), 500ml resin and hardener, pigment powders, glitter, and brushes. Makes 2-3 premium decorative trays.",
+    "images": [
+      "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=500&q=80",
+      "https://images.unsplash.com/photo-1547481887-a26e2cacb5b2?w=500&q=80",
+      "https://images.unsplash.com/photo-1612198790700-d68289c33edf?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-012",
+    "name": "Woven Seagrass Baskets",
+    "category": "Storage & Organizers",
+    "status": "available",
+    "price": 1350,
+    "description": "Set of 3 nesting seagrass baskets with leather handles (S, M, L). Ideal for blanket storage, toy organisation, or laundry. Sustainable natural material.",
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&q=80",
+      "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-013",
+    "name": "Floating Pine Shelves",
+    "category": "Furniture & Shelving",
+    "status": "available",
+    "price": 2800,
+    "description": "Set of 3 solid pine floating wall shelves in 40, 50, and 60 cm lengths. Includes hidden wall brackets. Easy installation, load-tested to 10 kg each.",
+    "images": [
+      "https://images.unsplash.com/photo-1524234107056-1c1f48f64ab8?w=500&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&q=80",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-014",
+    "name": "Mirror Mosaic Tray",
+    "category": "Desk & Shelf",
+    "status": "outofstock",
+    "price": 1650,
+    "description": "Handcrafted mirror mosaic serving tray in antique silver finish, 30x45 cm. Brings a glamorous editorial touch to vanity tables, coffee tables, or nightstands.",
+    "images": [
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=500&q=80",
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=500&q=80",
+      "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-015",
+    "name": "Cement Geometric Candle Holders",
+    "category": "Candles & Lighting",
+    "status": "available",
+    "price": 890,
+    "description": "Set of 4 DIY-cast cement tealight holders in hexagon, cube, sphere, and pyramid forms. Clean and minimalist, suits any modern or industrial interior.",
+    "images": [
+      "https://images.unsplash.com/photo-1608181831718-c9ffe8c8aff3?w=500&q=80",
+      "https://images.unsplash.com/photo-1612198790700-d68289c33edf?w=500&q=80",
+      "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-016",
+    "name": "Indigo Block Print Cushion Covers",
+    "category": "Textiles",
+    "status": "limited",
+    "price": 1100,
+    "description": "Set of 2 hand block printed cotton cushion covers in traditional Rajasthani indigo patterns. 45x45 cm with concealed zipper. Machine washable. Limited stock.",
+    "images": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=500&q=80",
+      "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=500&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-017",
+    "name": "Dried Pampas Grass Bunch",
+    "category": "Botanicals",
+    "status": "available",
+    "price": 560,
+    "description": "Natural dried pampas grass stems, bundle of 5, approx 80-90 cm tall. Zero maintenance. Adds warmth and texture to modern, minimal, or boho interiors.",
+    "images": [
+      "https://images.unsplash.com/photo-1490750967868-88df5691cc5e?w=500&q=80",
+      "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500&q=80",
+      "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-018",
+    "name": "Chalkboard Kitchen Label Kit",
+    "category": "Kitchen Decor",
+    "status": "available",
+    "price": 380,
+    "description": "Pack of 24 reusable chalkboard labels in assorted shapes plus chalk marker. Waterproof and rewritable. Label jars, spice racks, and pantry shelves with ease.",
+    "images": [
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&q=80",
+      "https://images.unsplash.com/photo-1600369671936-651f28e07754?w=500&q=80",
+      "https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-019",
+    "name": "Polymer Clay Earring Kit",
+    "category": "DIY Kits",
+    "status": "preorder",
+    "price": 950,
+    "description": "DIY polymer clay earring kit with 10 clay colors, rolling pin, shape cutters, earring hooks, and full illustrated instructions. Makes 15-20 pairs. No oven required.",
+    "images": [
+      "https://images.unsplash.com/photo-1563861826100-9cb868fdbe1c?w=500&q=80",
+      "https://images.unsplash.com/photo-1547481887-a26e2cacb5b2?w=500&q=80",
+      "https://images.unsplash.com/photo-1612198790700-d68289c33edf?w=500&q=80"
+    ]
+  },
+  {
+    "pid": "SP-HD-020",
+    "name": "Bamboo Organizer Tray",
+    "category": "Storage & Organizers",
+    "status": "available",
+    "price": 680,
+    "description": "Modular bamboo drawer and counter organizer with 6 compartments, expandable up to 3x. Ideal for kitchen utensils, desk supplies, and bathroom essentials.",
+    "images": [
+      "https://images.unsplash.com/photo-1512207736890-6ffed8a84e8d?w=500&q=80",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&q=80"
+    ]
+  }
+]
